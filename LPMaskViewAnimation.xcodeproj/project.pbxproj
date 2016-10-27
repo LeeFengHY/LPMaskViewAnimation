@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE972A831DC04AEB00F16E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE972A821DC04AEB00F16E9A /* main.m */; };
+		EE972A861DC04AEB00F16E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE972A851DC04AEB00F16E9A /* AppDelegate.m */; };
+		EE972A891DC04AEB00F16E9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE972A881DC04AEB00F16E9A /* ViewController.m */; };
+		EE972A8C1DC04AEB00F16E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE972A8A1DC04AEB00F16E9A /* Main.storyboard */; };
+		EE972A8E1DC04AEB00F16E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE972A8D1DC04AEB00F16E9A /* Assets.xcassets */; };
+		EE972A911DC04AEB00F16E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE972A8F1DC04AEB00F16E9A /* LaunchScreen.storyboard */; };
+		EE972A9C1DC04AEB00F16E9A /* LPMaskViewAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE972A9B1DC04AEB00F16E9A /* LPMaskViewAnimationTests.m */; };
+		EE972AA71DC04AEB00F16E9A /* LPMaskViewAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE972AA61DC04AEB00F16E9A /* LPMaskViewAnimationUITests.m */; };
+		EE972AB71DC05BE200F16E9A /* UIView+MaskAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE972AB61DC05BE200F16E9A /* UIView+MaskAnimation.m */; };
+		EE972ABA1DC095FF00F16E9A /* UIImageView+BannerMaskAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE972AB91DC095FF00F16E9A /* UIImageView+BannerMaskAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE972A981DC04AEB00F16E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE972A761DC04AEB00F16E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE972A7D1DC04AEB00F16E9A;
+			remoteInfo = LPMaskViewAnimation;
+		};
+		EE972AA31DC04AEB00F16E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE972A761DC04AEB00F16E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE972A7D1DC04AEB00F16E9A;
+			remoteInfo = LPMaskViewAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE972A7E1DC04AEB00F16E9A /* LPMaskViewAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPMaskViewAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE972A821DC04AEB00F16E9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE972A841DC04AEB00F16E9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE972A851DC04AEB00F16E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE972A871DC04AEB00F16E9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE972A881DC04AEB00F16E9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE972A8B1DC04AEB00F16E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE972A8D1DC04AEB00F16E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE972A901DC04AEB00F16E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE972A921DC04AEB00F16E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE972A971DC04AEB00F16E9A /* LPMaskViewAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPMaskViewAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE972A9B1DC04AEB00F16E9A /* LPMaskViewAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMaskViewAnimationTests.m; sourceTree = "<group>"; };
+		EE972A9D1DC04AEB00F16E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE972AA21DC04AEB00F16E9A /* LPMaskViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPMaskViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE972AA61DC04AEB00F16E9A /* LPMaskViewAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMaskViewAnimationUITests.m; sourceTree = "<group>"; };
+		EE972AA81DC04AEB00F16E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE972AB51DC05BE200F16E9A /* UIView+MaskAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MaskAnimation.h"; sourceTree = "<group>"; };
+		EE972AB61DC05BE200F16E9A /* UIView+MaskAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MaskAnimation.m"; sourceTree = "<group>"; };
+		EE972AB81DC095FF00F16E9A /* UIImageView+BannerMaskAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BannerMaskAnimation.h"; sourceTree = "<group>"; };
+		EE972AB91DC095FF00F16E9A /* UIImageView+BannerMaskAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BannerMaskAnimation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE972A7B1DC04AEB00F16E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE972A941DC04AEB00F16E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE972A9F1DC04AEB00F16E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE972A751DC04AEB00F16E9A = {
+			isa = PBXGroup;
+			children = (
+				EE972A801DC04AEB00F16E9A /* LPMaskViewAnimation */,
+				EE972A9A1DC04AEB00F16E9A /* LPMaskViewAnimationTests */,
+				EE972AA51DC04AEB00F16E9A /* LPMaskViewAnimationUITests */,
+				EE972A7F1DC04AEB00F16E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE972A7F1DC04AEB00F16E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE972A7E1DC04AEB00F16E9A /* LPMaskViewAnimation.app */,
+				EE972A971DC04AEB00F16E9A /* LPMaskViewAnimationTests.xctest */,
+				EE972AA21DC04AEB00F16E9A /* LPMaskViewAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE972A801DC04AEB00F16E9A /* LPMaskViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EE972A841DC04AEB00F16E9A /* AppDelegate.h */,
+				EE972A851DC04AEB00F16E9A /* AppDelegate.m */,
+				EE972A871DC04AEB00F16E9A /* ViewController.h */,
+				EE972A881DC04AEB00F16E9A /* ViewController.m */,
+				EE972AB51DC05BE200F16E9A /* UIView+MaskAnimation.h */,
+				EE972AB61DC05BE200F16E9A /* UIView+MaskAnimation.m */,
+				EE972AB81DC095FF00F16E9A /* UIImageView+BannerMaskAnimation.h */,
+				EE972AB91DC095FF00F16E9A /* UIImageView+BannerMaskAnimation.m */,
+				EE972A8A1DC04AEB00F16E9A /* Main.storyboard */,
+				EE972A8D1DC04AEB00F16E9A /* Assets.xcassets */,
+				EE972A8F1DC04AEB00F16E9A /* LaunchScreen.storyboard */,
+				EE972A921DC04AEB00F16E9A /* Info.plist */,
+				EE972A811DC04AEB00F16E9A /* Supporting Files */,
+			);
+			path = LPMaskViewAnimation;
+			sourceTree = "<group>";
+		};
+		EE972A811DC04AEB00F16E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE972A821DC04AEB00F16E9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE972A9A1DC04AEB00F16E9A /* LPMaskViewAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE972A9B1DC04AEB00F16E9A /* LPMaskViewAnimationTests.m */,
+				EE972A9D1DC04AEB00F16E9A /* Info.plist */,
+			);
+			path = LPMaskViewAnimationTests;
+			sourceTree = "<group>";
+		};
+		EE972AA51DC04AEB00F16E9A /* LPMaskViewAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE972AA61DC04AEB00F16E9A /* LPMaskViewAnimationUITests.m */,
+				EE972AA81DC04AEB00F16E9A /* Info.plist */,
+			);
+			path = LPMaskViewAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE972A7D1DC04AEB00F16E9A /* LPMaskViewAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE972AAB1DC04AEB00F16E9A /* Build configuration list for PBXNativeTarget "LPMaskViewAnimation" */;
+			buildPhases = (
+				EE972A7A1DC04AEB00F16E9A /* Sources */,
+				EE972A7B1DC04AEB00F16E9A /* Frameworks */,
+				EE972A7C1DC04AEB00F16E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPMaskViewAnimation;
+			productName = LPMaskViewAnimation;
+			productReference = EE972A7E1DC04AEB00F16E9A /* LPMaskViewAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE972A961DC04AEB00F16E9A /* LPMaskViewAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE972AAE1DC04AEB00F16E9A /* Build configuration list for PBXNativeTarget "LPMaskViewAnimationTests" */;
+			buildPhases = (
+				EE972A931DC04AEB00F16E9A /* Sources */,
+				EE972A941DC04AEB00F16E9A /* Frameworks */,
+				EE972A951DC04AEB00F16E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE972A991DC04AEB00F16E9A /* PBXTargetDependency */,
+			);
+			name = LPMaskViewAnimationTests;
+			productName = LPMaskViewAnimationTests;
+			productReference = EE972A971DC04AEB00F16E9A /* LPMaskViewAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE972AA11DC04AEB00F16E9A /* LPMaskViewAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE972AB11DC04AEB00F16E9A /* Build configuration list for PBXNativeTarget "LPMaskViewAnimationUITests" */;
+			buildPhases = (
+				EE972A9E1DC04AEB00F16E9A /* Sources */,
+				EE972A9F1DC04AEB00F16E9A /* Frameworks */,
+				EE972AA01DC04AEB00F16E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE972AA41DC04AEB00F16E9A /* PBXTargetDependency */,
+			);
+			name = LPMaskViewAnimationUITests;
+			productName = LPMaskViewAnimationUITests;
+			productReference = EE972AA21DC04AEB00F16E9A /* LPMaskViewAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE972A761DC04AEB00F16E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = LeeFengHY;
+				TargetAttributes = {
+					EE972A7D1DC04AEB00F16E9A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PDFNCJM5PL;
+						ProvisioningStyle = Automatic;
+					};
+					EE972A961DC04AEB00F16E9A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PDFNCJM5PL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE972A7D1DC04AEB00F16E9A;
+					};
+					EE972AA11DC04AEB00F16E9A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PDFNCJM5PL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE972A7D1DC04AEB00F16E9A;
+					};
+				};
+			};
+			buildConfigurationList = EE972A791DC04AEB00F16E9A /* Build configuration list for PBXProject "LPMaskViewAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE972A751DC04AEB00F16E9A;
+			productRefGroup = EE972A7F1DC04AEB00F16E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE972A7D1DC04AEB00F16E9A /* LPMaskViewAnimation */,
+				EE972A961DC04AEB00F16E9A /* LPMaskViewAnimationTests */,
+				EE972AA11DC04AEB00F16E9A /* LPMaskViewAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE972A7C1DC04AEB00F16E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE972A911DC04AEB00F16E9A /* LaunchScreen.storyboard in Resources */,
+				EE972A8E1DC04AEB00F16E9A /* Assets.xcassets in Resources */,
+				EE972A8C1DC04AEB00F16E9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE972A951DC04AEB00F16E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE972AA01DC04AEB00F16E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE972A7A1DC04AEB00F16E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE972A891DC04AEB00F16E9A /* ViewController.m in Sources */,
+				EE972AB71DC05BE200F16E9A /* UIView+MaskAnimation.m in Sources */,
+				EE972ABA1DC095FF00F16E9A /* UIImageView+BannerMaskAnimation.m in Sources */,
+				EE972A861DC04AEB00F16E9A /* AppDelegate.m in Sources */,
+				EE972A831DC04AEB00F16E9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE972A931DC04AEB00F16E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE972A9C1DC04AEB00F16E9A /* LPMaskViewAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE972A9E1DC04AEB00F16E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE972AA71DC04AEB00F16E9A /* LPMaskViewAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE972A991DC04AEB00F16E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE972A7D1DC04AEB00F16E9A /* LPMaskViewAnimation */;
+			targetProxy = EE972A981DC04AEB00F16E9A /* PBXContainerItemProxy */;
+		};
+		EE972AA41DC04AEB00F16E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE972A7D1DC04AEB00F16E9A /* LPMaskViewAnimation */;
+			targetProxy = EE972AA31DC04AEB00F16E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE972A8A1DC04AEB00F16E9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE972A8B1DC04AEB00F16E9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE972A8F1DC04AEB00F16E9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE972A901DC04AEB00F16E9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE972AA91DC04AEB00F16E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE972AAA1DC04AEB00F16E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE972AAC1DC04AEB00F16E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPMaskViewAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPMaskViewAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE972AAD1DC04AEB00F16E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPMaskViewAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPMaskViewAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE972AAF1DC04AEB00F16E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPMaskViewAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPMaskViewAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPMaskViewAnimation.app/LPMaskViewAnimation";
+			};
+			name = Debug;
+		};
+		EE972AB01DC04AEB00F16E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPMaskViewAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPMaskViewAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPMaskViewAnimation.app/LPMaskViewAnimation";
+			};
+			name = Release;
+		};
+		EE972AB21DC04AEB00F16E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPMaskViewAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPMaskViewAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LPMaskViewAnimation;
+			};
+			name = Debug;
+		};
+		EE972AB31DC04AEB00F16E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPMaskViewAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPMaskViewAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LPMaskViewAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE972A791DC04AEB00F16E9A /* Build configuration list for PBXProject "LPMaskViewAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE972AA91DC04AEB00F16E9A /* Debug */,
+				EE972AAA1DC04AEB00F16E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE972AAB1DC04AEB00F16E9A /* Build configuration list for PBXNativeTarget "LPMaskViewAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE972AAC1DC04AEB00F16E9A /* Debug */,
+				EE972AAD1DC04AEB00F16E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE972AAE1DC04AEB00F16E9A /* Build configuration list for PBXNativeTarget "LPMaskViewAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE972AAF1DC04AEB00F16E9A /* Debug */,
+				EE972AB01DC04AEB00F16E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE972AB11DC04AEB00F16E9A /* Build configuration list for PBXNativeTarget "LPMaskViewAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE972AB21DC04AEB00F16E9A /* Debug */,
+				EE972AB31DC04AEB00F16E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE972A761DC04AEB00F16E9A /* Project object */;
+}
