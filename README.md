@@ -1,6 +1,6 @@
 # LPMaskViewAnimation--通过maskView实现碎片动画
 ## 每个view自身都一个maskView,初始状态background为clearColor,通过实现maskView 的alpha值来影响view的hide,利用时间差异来实现碎片效果.
-< maskSubView backgroundColor切记不要clearColor,主要代码如下:
+~ maskSubView backgroundColor切记不要clearColor,主要代码如下:
 
 ```objc
 - (UIView *)fadeMaskView
